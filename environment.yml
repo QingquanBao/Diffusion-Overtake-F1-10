@@ -1,0 +1,6 @@
+name: f110_rl_obs
+dependencies:
+  - python=3.8
+  - pip
+  - matplotlib
+  - gymnasium

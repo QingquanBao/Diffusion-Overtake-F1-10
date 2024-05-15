@@ -1,0 +1,11 @@
+exp_name: BC
+data_folder: /home/ubuntu/BC/data/pp_data
+obs_dim: 1081
+action_dim: 2
+obs_horizon: 1
+pred_horizon: 16
+num_diffusion_iters: 100
+num_epochs: 51
+batch_size: 256
+log_interval: 100
+save_checkpoint_interval: 10

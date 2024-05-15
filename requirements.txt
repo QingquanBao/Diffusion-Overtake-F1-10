@@ -1,0 +1,9 @@
+pyglet<1.5 # mac user, pyglet==1.5.11
+gymnasium
+ray[tune, rllib]==2.8.0
+torch==2.0.0
+torchvision==0.15.0
+torchaudio==2.0.0
+# opencv-python==4.9.0.80
+pyclothoids
+opencv-python

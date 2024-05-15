@@ -1,0 +1,22 @@
+drive_control_mode: vel
+frenet_s_density: 0.05
+map: skan
+map_ext: .png
+max_episode_steps: 2500
+model: dynamic_ST
+num_agents: 1
+progress_window_size: 10
+reward:
+  collision_punish: 10.0
+  progress_reward: 1.0
+  reverse_direction_punish: -1.0
+  time_reward: 0.1
+  yawrate_punish: 0.05
+scan_beams: 54
+seed: 63
+stack_action_frames: 2
+steering_control_mode: angle
+timestep: 0.01
+track_width: 0.8
+verbose: false
+render: True
