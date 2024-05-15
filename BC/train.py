@@ -42,7 +42,9 @@ class Workspace:
         # create network object
         self.noise_pred_net = ConditionalUnet1D(
             input_dim=self.action_dim,
-            global_cond_dim=self.obs_dim*self.obs_horizon
+            global_cond_dim=self.obs_dim*self.obs_horizon,
+            diffusion_step_embed_dim=64,
+            down_dims=[64,64,64]
         )
 
         # create a dataloader

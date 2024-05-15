@@ -6,6 +6,9 @@ Please Check `/exp_records` for more visualization of overtaking!
 
 This repo shows how diffusion policy is used in F1/10 settings. The overtake success rate could be 60% without any opponent-competing expert drivign data, compared with MLP success rate with 30%.
 
+You could check the checkpoints of diffusion policy and our generated data in https://drive.google.com/drive/folders/1NRLhz4Sh3GxZBJBTg8gTesMh8X8I5OL3?usp=sharing
+
+
 ## Acknowledgement
 
 The f1tenth gym wrapper is forked from https://github.com/zzjun725/f1tenth_rl_obs/tree/main. We implement render(mode='rgb_array') into the enviornment for offline visualization, and also support multi-agent racing. We thanks Zhijun for her laying foundation.
